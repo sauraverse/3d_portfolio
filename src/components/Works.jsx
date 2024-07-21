@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-zinc-900 p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -33,7 +33,7 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -44,7 +44,7 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className='mt-5'>
@@ -62,6 +62,8 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <button className="mt-4 px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-purple-900 focus:ring-offset-2"><span className='flex flex-row'>Visit<img src={link} alt='source code' className='w-4 h-4 ml-2 '/></span></button>
+        <button className="ml-4 px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-purple-900 focus:ring-offset-2"><span className='flex flex-row'><img src={github} alt='source code' className='w-5 h-5 mr-1'/>Source Code</span></button>
       </Tilt>
     </motion.div>
   );
