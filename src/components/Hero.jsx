@@ -21,7 +21,7 @@ const Hero = () => {
         I got you covered!🚀
       </p>
       <div className="mt-8">
-        <button className="ring-4 ring-purple-700/50 text-lg bg-zinc-900 py-2 px-4 rounded-xl outline-none font-bold shadow-md shadow-primary">
+        <button className="ring-4 ring-purple-700/50 text-lg bg-zinc-900 py-2 px-4 rounded-xl outline-none font-bold hover:shadow-xl hover:shadow-slate-800 hover:bg-slate-900">
           📄<span className="bg-gradient-to-r from-[#FEAC5E] via-[#C779D0] to-[#4BC0C8] bg-clip-text text-transparent">Resume</span>
         </button>
       </div>

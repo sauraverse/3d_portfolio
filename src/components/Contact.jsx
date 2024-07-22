@@ -92,7 +92,7 @@ const Contact = () => {
         <img src={photo} alt="Profile Photo" className="w-1/4 mb-4 border-2 rounded-full border-amber-700 shadow-xl shadow-amber-500/30"/>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <p className="italic text-center">Hey there! Whether you're a Recruiter or a fellow friend, <span className="font-bold text-purple-500">I'd love to hear from you</span>. Leave a message and let me know, you stopped by. Or, if you prefer to stay mysterious, that's cool too! <span className="not-italic">👻</span></p>
+        <p className="italic text-center">Hey there! Whether you're a Recruiter or a fellow friend, <span className="font-bold text-purple-500">I'd love to hear from you</span>. Leave a message and let me know, you stopped by!! Or, if you prefer to stay mysterious, that's cool too! <span className="not-italic">👻</span></p>
         </div>
         <form
           ref={formRef}

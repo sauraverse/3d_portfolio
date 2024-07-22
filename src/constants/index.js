@@ -124,20 +124,37 @@ const projects = [
   {
     name: "Ghost Messages",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This platform lets users receive anonymous messages by sharing a unique link. Sender's identity remains hidden, making interactions fun and gamified. Share your link & see what exciting messages come your way!",
     tags: [
       {
-        name: "next.js",
-        color: "blue-text-gradient",
+        name: "Next.js",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zod",
         color: "pink-text-gradient",
       },
+      {
+        name: "Next Auth.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google AI API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mail API",
+        color: "blue-text-gradient",
+      },
+      
     ],
     image: carrent,
     source_code_link: "https://github.com/",
@@ -145,18 +162,18 @@ const projects = [
   {
     name: "Google Docs Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based document editor that replicates the core features of Google Docs. Users can create, edit, and share documents in real-time, with support for collaborative editing, commenting, and formatting.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
     ],
