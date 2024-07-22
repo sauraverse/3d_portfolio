@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.png";
 
+import photo from "./photo.gif";
 
 import programmer from "./skills/programmer.png"
 import frontend from "./skills/frontend.png"
@@ -27,6 +28,7 @@ import github1 from "./icons/github1.png";
 
 export {
   logo,
+  photo,
   programmer,
   frontend,
   backend,

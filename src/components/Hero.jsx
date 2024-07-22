@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="mt-7 flex flex-row">
         <a href="https://github.com/sauraverse" target="_blank"><img className="w-14 mr-5" src={github1} alt="github-link" /></a>
         <a href="https://www.linkedin.com/in/sauraverse" target="_blank"><img className="w-14 mr-5" src={linkedin} alt="linkedin-link" /></a>
-        <img className="w-14 mr-5" src={twitter} alt="twitter-link" />
+        <a href="https://x.com/sauraverse_" target="_blank"><img className="w-14 mr-5" src={twitter} alt="twitter-link" /></a>
         <a href="https://sauraverse.medium.com/" target="_blank"><img className="w-14 mr-5" src={medium} alt="medium-link" /></a>
       </div>
     </div>
