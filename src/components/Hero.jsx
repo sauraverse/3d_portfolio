@@ -18,7 +18,7 @@ const Hero = () => {
       <p className={`${styles.heroSubText} mt-2 text-zinc-400`}>
         I build WebApps. <br/>
         From Designing to Deployment, <br className="sm:block hidden" />
-        I go you covered!🚀
+        I got you covered!🚀
       </p>
       <div className="mt-8">
         <button className="ring-4 ring-purple-700/50 text-lg bg-zinc-900 py-2 px-4 rounded-xl outline-none font-bold shadow-md shadow-primary">
