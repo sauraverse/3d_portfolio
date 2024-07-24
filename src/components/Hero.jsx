@@ -26,10 +26,10 @@ const Hero = () => {
         </button></a>
       </div>
       <div className="mt-7 flex flex-row space-x-5">
-        <a href="https://github.com/sauraverse" target="_blank"><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img src={github1} alt="github-link" /></button></a>
-        <a href="https://www.linkedin.com/in/sauraverse" target="_blank"><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img src={linkedin} alt="linkedin-link" /></button></a>
-        <a href="https://x.com/sauraversee" target="_blank"><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img  src={twitter} alt="twitter-link" /></button></a>
-        <a href="https://sauraverse.medium.com/" target="_blank"><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img  src={medium} alt="medium-link" /></button></a>
+        <div onClick={() => window.open("https://github.com/sauraverse", "_blank")}><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img src={github1} alt="github-link" /></button></div>
+        <div onClick={() => window.open("https://www.linkedin.com/in/sauraverse", "_blank")}><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img src={linkedin} alt="linkedin-link" /></button></div>
+        <div onClick={() => window.open("https://x.com/sauraversee", "_blank")}><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img  src={twitter} alt="twitter-link" /></button></div>
+        <div onClick={() => window.open("https://sauraverse.medium.com/", "_blank")}><button className="w-14 shadow-lg shadow-gray-300/40 rounded-full"><img  src={medium} alt="medium-link" /></button></div>
       </div>
     </div>
   </div>
