@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  website_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -62,8 +63,10 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <button className="mt-4 px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-purple-900 focus:ring-offset-2"><span className='flex flex-row'>Visit<img src={link} alt='source code' className='w-4 h-4 ml-2 '/></span></button>
-        <button className="ml-4 px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-purple-900 focus:ring-offset-2"><span className='flex flex-row'><img src={github} alt='source code' className='w-5 h-5 mr-1'/>Source Code</span></button>
+        <div className="mt-4 flex flex-row space-x-4">
+        <a href={website_link} target="_blank"><button className=" px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 "><span className='flex flex-row'>Visit<img src={link} alt='source code' className='w-4 h-4 ml-2 '/></span></button></a>
+        <a href={source_code_link} target="_blank"><button className=" px-5 py-2 bg-black text-white rounded-md hover:bg-slate-900 "><span className='flex flex-row'><img src={github} alt='source code' className='w-5 h-5 mr-1'/>Source Code</span></button></a>
+        </div>
       </Tilt>
     </motion.div>
   );

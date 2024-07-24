@@ -3,14 +3,17 @@ import {
   backend1,
   creator,
   web,
-  carrent,
-  jobit,
-  tripguide,
   programmer,
   frontend,
   database,
   devops,
   backend,
+  ghostmessages,
+  currencyconverter,
+  passgenerator,
+  sauraverse,
+  npmpackage,
+  docsclone,
 } from "../assets";
 
 export const navLinks = [
@@ -156,13 +159,14 @@ const projects = [
       },
       
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ghostmessages,
+    source_code_link: "https://github.com/sauraverse/nextjs-ghost-messages",
+    website_link: "https://ghostmessages.sauraverse.com/",
   },
   {
     name: "Google Docs Clone",
     description:
-      "Web-based document editor that replicates the core features of Google Docs. Users can create, edit, and share documents in real-time, with support for collaborative editing, commenting, and formatting.",
+      "Web-based document editor that replicates the core features of Google Docs. Users can create, edit, and share documents in real-time, with support for collaborative editing and rich text formatting using QuillJS API.",
     tags: [
       {
         name: "react.js",
@@ -173,12 +177,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "QuillJS API",
+        color: "blue-text-gradient",
+      },
+      {
         name: "socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: docsclone,
+    source_code_link: "https://github.com/sauraverse/google-docs-clone",
+    website_link: "https://github.com/sauraverse/google-docs-clone",
   },
   {
     name: "npm Package",
@@ -198,8 +207,91 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: npmpackage,
+    source_code_link: "https://github.com/sauraverse/npm-package",
+    website_link: "https://github.com/sauraverse/npm-package",
+  },
+  {
+    name: "Currency Converter",
+    description:
+      "React based Currency Converter app made using Custom Hooks, useID hook etc. Fetched frankfurter's API consisting updated foreign-exchange-rates published by European Central Bank.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frank Furter API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "custom-react-hooks",
+        color: "green-text-gradient",
+      },
+    ],
+    image: currencyconverter,
+    source_code_link: "https://github.com/sauraverse/currency-converter",
+    website_link: "https://sauraverse-currency-converter.vercel.app/",
+  },
+  {
+    name: "Password Generator",
+    description:
+      "React-based tool, utilizing hooks like useEffect, useRef, and optimized with useCallback.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-hooks",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-optimisations",
+        color: "green-text-gradient",
+      },
+    ],
+    image: passgenerator,
+    source_code_link: "https://github.com/sauraverse/react-optimizedPasswordGenerator",
+    website_link: "https://sauraverse-password-generator.vercel.app/",
+  },
+  {
+    name: "3d Portfolio",
+    description:
+      "Built react-based 3d portfolio website using Three.js, framer-motion.. With intuitive & responsive design. Added confetti effect on form submission and what not, to make UX impressive.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailJS API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: sauraverse,
+    source_code_link: "https://github.com/sauraverse/3d_portfolio",
+    website_link: "https://sauraverse.com",
   },
 ];
 

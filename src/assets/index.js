@@ -8,6 +8,13 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.png";
 
+import ghostmessages from "./ghostmessages.png"
+import docsclone from "./docsclone.png"
+import npmpackage from "./npmpackage.png"
+import currencyconverter from "./currencyconverter.png"
+import passgenerator from "./passgenerator.png"
+import sauraverse from "./sauraverse.png"
+
 import photo from "./photo.gif";
 
 import programmer from "./skills/programmer.png"
@@ -15,10 +22,6 @@ import frontend from "./skills/frontend.png"
 import backend from "./skills/backend.png"
 import database from "./skills/database.png"
 import devops from "./skills/devops.png"
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import linkedin from "./icons/linkedin.png";
 import medium from "./icons/medium.png";
@@ -46,7 +49,11 @@ export {
   github,
   menu,
   close,
-  carrent,
-  jobit,
-  tripguide,
+  
+  docsclone,
+  npmpackage,
+  ghostmessages,
+  currencyconverter,
+  passgenerator,
+  sauraverse,
 };
