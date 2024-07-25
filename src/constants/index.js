@@ -166,7 +166,7 @@ const projects = [
   {
     name: "Google Docs Clone",
     description:
-      "Web-based document editor that replicates the core features of Google Docs. Users can create, edit, and share documents in real-time, with support for collaborative editing and rich text formatting using QuillJS API.",
+      "Web-based document editor that replicates the core features of Google Docs. Users can create, edit, and share documents in real-time, with support for collaborative editing using Socket.io and rich text formatting using QuillJS API.",
     tags: [
       {
         name: "react.js",
@@ -192,10 +192,10 @@ const projects = [
   {
     name: "npm Package",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
@@ -203,7 +203,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "npm-package",
         color: "pink-text-gradient",
       },
     ],
@@ -266,7 +266,7 @@ const projects = [
   {
     name: "3d Portfolio",
     description:
-      "Built react-based 3d portfolio website using Three.js, framer-motion.. With intuitive & responsive design. Added confetti effect on form submission and what not, to make UX impressive.",
+      "Built react-based 3d portfolio website using Three.js, framer-motion... With intuitive & responsive design. Added confetti-effect on form submission and what not, to make UX impressive.",
     tags: [
       {
         name: "ReactJS",
