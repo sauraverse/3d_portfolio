@@ -34,7 +34,7 @@ const Hero = () => {
     </div>
   </div>
 
-  <div className="flex-1 flex items-center justify-center p-6 sm:p-10 lg:p-28 2xl:p-4"> 
+  <div className="flex-1 flex items-center justify-center p-6 sm:p-10 lg:p-52 2xl:p-4"> 
     <motion.div className="w-full h-full flex justify-end items-center">
       <div className="w-full h-full max-w-3xl">
         <EarthCanvas />

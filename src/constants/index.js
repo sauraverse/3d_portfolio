@@ -237,32 +237,32 @@ const projects = [
     source_code_link: "https://github.com/sauraverse/currency-converter",
     website_link: "https://sauraverse-currency-converter.vercel.app/",
   },
-  {
-    name: "Password Generator",
-    description:
-      "React-based tool, utilizing hooks like useEffect, useRef, and optimized with useCallback.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react-hooks",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react-optimisations",
-        color: "green-text-gradient",
-      },
-    ],
-    image: passgenerator,
-    source_code_link: "https://github.com/sauraverse/react-optimizedPasswordGenerator",
-    website_link: "https://sauraverse-password-generator.vercel.app/",
-  },
+  // {
+  //   name: "Password Generator",
+  //   description:
+  //     "React-based tool, utilizing hooks like useEffect, useRef, and optimized with useCallback.",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react-hooks",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "react-optimisations",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: passgenerator,
+  //   source_code_link: "https://github.com/sauraverse/react-optimizedPasswordGenerator",
+  //   website_link: "https://sauraverse-password-generator.vercel.app/",
+  // },
   {
     name: "3d Portfolio",
     description:
