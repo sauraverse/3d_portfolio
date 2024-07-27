@@ -211,32 +211,32 @@ const projects = [
     source_code_link: "https://github.com/sauraverse/npm-package",
     website_link: "https://github.com/sauraverse/npm-package",
   },
-  {
-    name: "Currency Converter",
-    description:
-      "React based Currency Converter app made using Custom Hooks, useID hook etc. Fetched frankfurter's API consisting updated foreign-exchange-rates published by European Central Bank.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Frank Furter API",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "custom-react-hooks",
-        color: "green-text-gradient",
-      },
-    ],
-    image: currencyconverter,
-    source_code_link: "https://github.com/sauraverse/currency-converter",
-    website_link: "https://sauraverse-currency-converter.vercel.app/",
-  },
+  // {
+  //   name: "Currency Converter",
+  //   description:
+  //     "React based Currency Converter app made using Custom Hooks, useID hook etc. Fetched frankfurter's API consisting updated foreign-exchange-rates published by European Central Bank.",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Frank Furter API",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "custom-react-hooks",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: currencyconverter,
+  //   source_code_link: "https://github.com/sauraverse/currency-converter",
+  //   website_link: "https://sauraverse-currency-converter.vercel.app/",
+  // },
   // {
   //   name: "Password Generator",
   //   description:
@@ -263,36 +263,36 @@ const projects = [
   //   source_code_link: "https://github.com/sauraverse/react-optimizedPasswordGenerator",
   //   website_link: "https://sauraverse-password-generator.vercel.app/",
   // },
-  {
-    name: "3d Portfolio",
-    description:
-      "Built react-based 3d portfolio website using Three.js, framer-motion... With intuitive & responsive design. Added confetti-effect on form submission and what not, to make UX impressive.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-three-fiber",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "emailJS API",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: sauraverse,
-    source_code_link: "https://github.com/sauraverse/3d_portfolio",
-    website_link: "https://sauraverse.com",
-  },
+  // {
+  //   name: "3d Portfolio",
+  //   description:
+  //     "Built react-based 3d portfolio website using Three.js, framer-motion... With intuitive & responsive design. Added confetti-effect on form submission and what not, to make UX impressive.",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "react-three-fiber",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "framer-motion",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "emailJS API",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: sauraverse,
+  //   source_code_link: "https://github.com/sauraverse/3d_portfolio",
+  //   website_link: "https://sauraverse.com",
+  // },
 ];
 
 export { services, experiences, projects };
