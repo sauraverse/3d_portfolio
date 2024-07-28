@@ -192,24 +192,24 @@ const projects = [
   {
     name: "npm Package",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam",
+      "Create unique IDs for slugs, passwords, and more with ease. Our package allows you to customize string length, include numbers, and special characters to fit your needs.",
     tags: [
       {
-        name: "React.js",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "npm",
         color: "green-text-gradient",
       },
       {
-        name: "npm-package",
+        name: "cst-unique-id",
         color: "pink-text-gradient",
       },
     ],
     image: npmpackage,
     source_code_link: "https://github.com/sauraverse/npm-package",
-    website_link: "https://github.com/sauraverse/npm-package",
+    website_link: "https://www.npmjs.com/package/cst-unique-id",
   },
   // {
   //   name: "Currency Converter",
