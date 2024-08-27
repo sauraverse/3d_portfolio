@@ -18,6 +18,10 @@ import {
 
 export const navLinks = [
   {
+    id: "https://blog.sauraverse.com/",
+    title: "Blogs",
+  },
+  {
     id: "about",
     title: "About",
   },
@@ -127,7 +131,7 @@ const projects = [
   {
     name: "Ghost Messages",
     description:
-      "This platform lets users receive anonymous messages by sharing a unique link. Sender's identity remains hidden, making interactions fun and gamified. Share your link & see what exciting messages come your way!",
+      "This AI-powered Messaging platform lets users receive anonymous messages by sharing a unique link. Sender's identity remains hidden, making interactions fun and gamified. Share your link & see what exciting messages come your way!",
     tags: [
       {
         name: "Next.js",
